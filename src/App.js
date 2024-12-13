@@ -3,6 +3,7 @@ import React from 'react'
 import './App.css'
 import Home from './Home';
 import Order from './Order';
+import OrderLucky from './OrderLucky';
 import { Route, BrowserRouter, Routes } from 'react-router-dom';
 import ReactDOM from "react-dom/client";
 
@@ -14,7 +15,8 @@ return (
 
     <Routes>
         <Route index path='' element={<Home/>} />
-        <Route  path='/eat' element={<Order/>} />
+        <Route  path='/eat' element={<OrderLucky/>} />
+        <Route  path='/eatold' element={<Order/>} />
     </Routes>
 
 );
