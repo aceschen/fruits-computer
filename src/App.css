@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-  font-family: "Grandstander", cursive;
+  font-family: 'Grandstander', cursive;
 }
 
 html {
-  background-color: #FFF3DB;
+  background-color: #fff3db;
 }
 
-.page{
-  color: #7BB155;
-  background-color: #FFF3DB;
+.page {
+  color: #7bb155;
+  background-color: #fff3db;
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -20,8 +20,8 @@ html {
 }
 
 .order {
-  color: #7BB155;
-  background-color: #FFF3DB;
+  color: #7bb155;
+  background-color: #fff3db;
   width: 100vw;
   height: fit-content;
   display: flex;
@@ -31,7 +31,15 @@ html {
   margin-bottom: 100px;
 }
 
-
+form {
+  color: #7bb155;
+  background-color: #fff3db;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
 .main-container {
   height: 60vh;
   width: 60vw;
@@ -53,6 +61,8 @@ html {
   text-align: center;
   line-height: 90%;
   margin-bottom: 20px;
+  width: 100%;
+  align-self: center;
 }
 
 .time {
@@ -70,19 +80,18 @@ html {
 }
 
 .comein {
-  background-color: #FE929C;
-  color:#FFF3DB;
+  background-color: #fe929c;
+  color: #fff3db;
   border: none;
   border-radius: 100px;
   font-size: 20px;
-  font-family: "Grandstander", cursive;
+  font-family: 'Grandstander', cursive;
   padding: 20px 40px 20px 40px;
   text-decoration: none;
   margin: 20px;
-
 }
 
-.comein:hover{
+.comein:hover {
   text-decoration-line: underline;
   text-decoration-color: rgb(219, 75, 56);
   text-decoration-style: wavy;
@@ -101,12 +110,13 @@ label {
 }
 
 .desc {
-  font-size: 10px;
-  color:#fa885b;
+  padding: 10px;
+  font-size: 12px;
+  color: #fa885b;
 }
 
 .menuHeader {
   margin: 30px 15px 15px 15px;
-  color:#ff7337;
+  color: #ff7337;
   font-weight: 800;
 }
