@@ -121,7 +121,7 @@ export default function Order() {
           </label>
           <div className="menuHeader">victuals</div>
           <label>
-            <input name="mince and cheese pies" type="checkbox" />
+            <input name="data[mince and cheese pies]" type="checkbox" />
             <span>
               imaginary kiwi mince and cheese pies, home-made by new
               zealander(’s boyfriend)
