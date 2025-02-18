@@ -52,7 +52,7 @@ export default function Order() {
 		<button className="comein" type="submit" disabled={state.submitting}> Submit </button>
 		</form> */}
       <div className="form">
-        <div className="header">what do you want</div>
+        <div className="header">what do you want isabel</div>
         <form
           id="orderform"
           method="post"
@@ -61,6 +61,16 @@ export default function Order() {
           {/* ID: <input name="data[id]"/> */}
           <div>who are you</div> <input name="data[name]" />
           <div className="menuHeader">potions</div>
+          <label>
+            <span>
+             ★ special sweet limited edition secret menu extravaganza special
+              <div className="desc">
+                <span>
+                  double scoop of matcha with gin, shaken (8)
+                </span>
+              </div>
+            </span>
+          </label>
           <label>
             <input name="data[sticky chai hot cocoa]" type="checkbox" />
             <span>
@@ -160,6 +170,16 @@ export default function Order() {
             </span>
           </label>
           <div className="menuHeader">misc. offerings</div>
+          <label>
+            <span>
+             ★ anniversary ultra awesome dating true love extravaganza anniversary special
+              <div className="desc">
+                <span>
+                  wealth of tuner arrangements (7)
+                </span>
+              </div>
+            </span>
+          </label>
           <label>
             <input name="data[fortune cookies]" type="checkbox" />
             <span>

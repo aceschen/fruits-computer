@@ -65,7 +65,7 @@ export default function Home() {
   if (Math.floor(min / 10) === min % 10) {
     wish = 'HOW LUCKY!';
   } else {
-    wish = 'what a normal time of day';
+    wish = 'loving time';
   }
 
   const time = today.toLocaleTimeString(locale, {
