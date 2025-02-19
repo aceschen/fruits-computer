@@ -170,16 +170,7 @@ export default function Order() {
             </span>
           </label>
           <div className="menuHeader">misc. offerings</div>
-          <label>
-            <span>
-             ★ anniversary ultra awesome dating true love extravaganza anniversary special
-              <div className="desc">
-                <span>
-                  wealth of tuner arrangements (7)
-                </span>
-              </div>
-            </span>
-          </label>
+          
           <label>
             <input name="data[fortune cookies]" type="checkbox" />
             <span>
